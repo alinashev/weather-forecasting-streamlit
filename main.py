@@ -37,14 +37,16 @@ user_input = get_user_input(
 if user_input:
     input_dict = user_input.to_dict()
     prediction, probability = predict_(input_dict, model_dict)
+    result = ""
 
     if prediction == "Yes":
         set_background_color("#cde2f2")
         show_gif("assets/rain.gif")
+        result = "Так!"
     else:
         set_background_color("#fff8dc")
         show_gif("assets/sun.gif")
+        result = "Ні!"
 
     st.subheader("Результат прогнозу")
-    st.markdown(f"**Чи буде дощ завтра?** — **{prediction}**")
-    st.markdown(f"**Ймовірність:** {probability:.2%}")
+    st.markdown(f"**Чи буде дощ завтра?** — **{result}** (З ймовірністю {probability:.2%})")
