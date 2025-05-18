@@ -5,10 +5,14 @@ rain for tomorrow in Australia using a pre-trained machine learning model.
 
 ## Dataset
 
-The dataset used for model training can be
+The model was trained on a dataset from Kaggle, can be
 found [here](https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package).
 
 ## Try App
+
+The app allows you to choose certain settings such as temperature, precipitation, region, etc.
+
+As a result, you will receive a yes or no answer, and the probability of the forecast.
 
 You can try the app in action [here](https://weather-forecasting-alinashev.streamlit.app/).
 
@@ -21,9 +25,13 @@ You can try the app in action [here](https://weather-forecasting-alinashev.strea
 
 ## Набір Даних
 
-Набір даних, на якому була натренована модель може бути
+Модель була натренована на наборі даних з Kaggle, може бути
 знайденим [тут](https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package).
 
 ## Спробувати Додаток
+
+Додаток дозволяє обрати певні налаштування такі як температура, опади, регіон тощо.
+
+В результаті ви отримаєте відповідь так чи ні, а ймовірність прогнозу.
 
 Ви можете спробувати додаток в дії [тут](https://weather-forecasting-alinashev.streamlit.app/).
