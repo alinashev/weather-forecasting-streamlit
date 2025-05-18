@@ -1,4 +1,4 @@
-# Rain forecast for tomorrow in Australia
+# Rain forecast for tomorrow in Australia 
 
 This project implements an interactive web application based on Streamlit that allows you to predict the probability of
 rain for tomorrow in Australia using a pre-trained machine learning model.
@@ -32,6 +32,6 @@ You can try the app in action [here](https://weather-forecasting-alinashev.strea
 
 Додаток дозволяє обрати певні налаштування такі як температура, опади, регіон тощо.
 
-В результаті ви отримаєте відповідь так чи ні, а ймовірність прогнозу.
+В результаті ви отримаєте відповідь так чи ні, і ймовірність прогнозу.
 
 Ви можете спробувати додаток в дії [тут](https://weather-forecasting-alinashev.streamlit.app/).
