@@ -6,7 +6,7 @@ from view.background import set_background_color, show_gif
 
 st.set_page_config(page_title="Прогноз дощу в Австралії", page_icon="\U0001F327\ufe0f")
 show_gif("assets//sun-and-cloud.gif", width=300, height=200)
-st.title("Прогноз дощу на завтра")
+st.title("Прогноз дощу на завтра в Австралії")
 model_dict = load_model()
 feature_limits = load_stats()
 

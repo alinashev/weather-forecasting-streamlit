@@ -1,8 +1,8 @@
 import streamlit as st
 
-from models.fearures import FIELD_LABELS
-from models.input_data import WeatherInput
-from models.limits import HARD_LIMITS
+from features.fearures import FIELD_LABELS
+from features.input_data import WeatherInput
+from features.limits import HARD_LIMITS
 from view.background import set_background_color, show_gif
 
 
