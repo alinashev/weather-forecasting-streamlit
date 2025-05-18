@@ -26,4 +26,4 @@ You can try the app in action [here](https://weather-forecasting-alinashev.strea
 
 ## Спробувати Додаток
 
-Ви можете спробувати додаток в дії [тут](https://weather-forecasting-alinashev.streamlit.app/) .
+Ви можете спробувати додаток в дії [тут](https://weather-forecasting-alinashev.streamlit.app/).
