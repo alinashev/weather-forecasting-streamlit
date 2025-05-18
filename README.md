@@ -22,8 +22,8 @@ The application allows you to interactively configure forecast parameters, inclu
 
 Based on the input data, the model predicts whether it will rain today, and displays:
 
--Binary answer: Yes or No
--Prediction probability: e.g., 80% confidence in rain
+- Binary answer: Yes or No
+- Prediction probability: e.g., 80% confidence in rain
 
 This enables a quick and user-friendly assessment of potential weather risks.
 
